@@ -1,0 +1,104 @@
+body{
+    background-color: #F9F9F9;
+    margin: 0;
+}
+.fa-solid {
+    color: #434242;
+}
+.btn{
+    background-color: #AA8B56;
+}
+.header{
+    position: relative;
+}
+.navbar {
+    background-color: #205375;
+}
+.sign-in-btn{
+position: absolute;
+right: 150px;
+}
+.cart-icon{
+position: absolute;
+right: 200px;
+}
+.leading-par{
+    background-color: #205375;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    width: 60%;
+}
+.navbar-toggler {
+    border: none;
+}
+.input-group {
+    position: relative;
+
+}
+
+.btn-pos {
+    position: absolute;
+    border-radius: 5px;
+    right: 0;
+    top: 12px;
+    right: 6px;
+}
+.input-group-text{
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border: none;
+    top: 18.5px;
+    left: 3px;
+}
+.form-inline .form-control{
+height: 65px;
+}
+/*.circle{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    background: rgb(32,83,117);
+background: linear-gradient(90deg, rgba(32,83,117,1) 0%, rgba(32,83,117,0.7959558823529411) 0%, rgba(32,83,117,0) 85%);
+position: relative;
+right: 100px;
+z-index: 0;
+}*/
+.card{
+    border: none;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    height: 285px;
+    width: 285px;
+}
+.arrow {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.arrow-1{
+    background-color: #AA8B56;
+}
+.circle-2 {
+    border-radius: 50%;
+    min-height: 400px;
+    min-width: 400px;
+    background-color: #205375;
+}
+.about-us{
+    margin-top: 175px;
+}
+.aboutUs-txt{
+    color: #434242;
+}
+.special-menu{
+    background-color: #EFEFEF;
+}
+#inlineFormInputGroupUsername2 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#choose-card{
+    background-color: #205375;
+}
