@@ -8,26 +8,31 @@ body{
 .btn{
     background-color: #AA8B56;
 }
+
 .header{
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
-.navbar {
-    background-color: #205375;
-}
+
 .sign-in-btn{
 position: absolute;
 right: 150px;
+list-style-type:none;
 }
+
 .cart-icon{
 position: absolute;
-right: 200px;
+right: 350px;
+list-style-type:none;
 }
+
 .leading-par{
     background-color: #205375;
     padding-bottom: 100px;
     border-bottom-left-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
     width: 60%;
+    padding-top: 100px;
 }
 .navbar-toggler {
     border: none;
