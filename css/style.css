@@ -11,27 +11,16 @@ body{
 
 .header{
     position: fixed;
-    width: 100%;
+    width: 80%;
 }
 
-.sign-in-btn{
-position: absolute;
-right: 150px;
-list-style-type:none;
-}
-
-.cart-icon{
-position: absolute;
-right: 350px;
-list-style-type:none;
-}
 
 .leading-par{
     background-color: #205375;
     padding-bottom: 100px;
-    border-bottom-left-radius: 50px;
+    border-bottom-left-radius: 100px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-    width: 60%;
+    width: 70%;
     padding-top: 100px;
 }
 .navbar-toggler {
@@ -107,3 +96,15 @@ z-index: 0;
 #choose-card{
     background-color: #205375;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+    .leading-par{
+        width: 100%;
+    }
+    
+  }
+  @media (min-width: 767px) and (max-width: 1300px) {
+    .leading-par{
+        width: 60%;
+    }
+    
+  }

@@ -12,9 +12,11 @@
 </head>
 
 <body>
-	<!-- Navigation -->
-	<header class="header ml-5">
+	<!-- Header -->
+	<div class="d-flex justify-content-center">
+	<header class="header">
 		<nav class="navbar navbar-expand-lg navbar-dark">
+			
 		<a class="navbar-brand text-white font-weight-normal" href="#">Restart</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -37,18 +39,18 @@
 				<a class="nav-link" href="#">About</a> 
 			</li>
 			</ul>
-		  </div>
-		  <ul>
-			<li class="sign-in-btn"> <button type="button" class="btn rounded-pill text-white">Sign in</button> </li>
-	   <li class="mr-5 cart-icon"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-	</ul> 
+		</div>
+	   <div class="d-flex align-items-center">
+		   <div class="cart-icon mx-2"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></div>
+		   <div class="sign-in-btn mx-2"> <button type="button" class="btn rounded-pill text-white">Sign in</button> </div>
+	  </div>
 	   </nav>
 
 	</header>
-
+</div>
 <!--lead section-->
 
-	<div class="container-fluid leading-par ml-5">
+	<div class="container-fluid leading-par ml-4">
 		
 		<h1 class="display-3 text-white font-weight-bold ml-5 pb-3">Provide the best <br>food for you</h1>
 		<p class="lead text-white ml-5 pb-4">
@@ -65,7 +67,6 @@
 		   <button class="btn btn-pos rounded-pill text-white" type="button">Search</button>
 		 </div>
 	   </form>
-	   
 	</div>
 
 
@@ -144,35 +145,13 @@ high quality food ingridients, and this is all prepared only for our customers
 <!-- Special Menu -->
 <div class="container-fluid special-menu">
 <h1 class="font-weight-bold text-center display-4">Our Special Menu</h1>
-
-<div class="row">
-	<div class="col-md-4">
-	<div class="card">
-		
-	</div>
-</div>
-<div class="col-md-4">
-	<div class="card"></div>
-</div>
-<div class="col-md-4">
-	<div class="card"></div>
-</div>
-<div class="col-md-4">
-	<div class="card"></div>
-</div>
-<div class="col-md-4">
-	<div class="card"></div>
-</div>
-<div class="col-md-4">
-	<div class="card"></div>
-</div>
 </div>
 
-</div>
-	<script src="js/script.js"></script>
-	<script src="js/popper.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
 	<script src="https://kit.fontawesome.com/cd2279f6cb.js" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
