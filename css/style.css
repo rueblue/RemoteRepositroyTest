@@ -30,11 +30,9 @@ body{
     position: relative;
 
 }
-
 .btn-pos {
     position: absolute;
     border-radius: 5px;
-    right: 0;
     top: 12px;
     right: 6px;
 }
@@ -49,30 +47,28 @@ body{
 .form-inline .form-control{
 height: 65px;
 }
-/*.circle{
-    border-radius: 50%;
-    height: 500px;
-    width: 500px;
-    background: rgb(32,83,117);
-background: linear-gradient(90deg, rgba(32,83,117,1) 0%, rgba(32,83,117,0.7959558823529411) 0%, rgba(32,83,117,0) 85%);
-position: relative;
-right: 100px;
-z-index: 0;
-}*/
-.card{
+.order-cards:hover{
+    background-color: #205375;
+    color: white;
+}
+.order-cards{
     border: none;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     height: 285px;
     width: 285px;
 }
+.fa-chevron-right{
+    color: #205375;
+}
 .arrow {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    background-color: #fff;
 }
-.arrow-1{
-    background-color: #AA8B56;
+.arrow:hover{
+background-color: #AA8B56;
 }
 .circle-2 {
     border-radius: 50%;
@@ -89,16 +85,38 @@ z-index: 0;
 .special-menu{
     background-color: #EFEFEF;
 }
+.about-us-btn{
+    width: 25%;
+    padding: 10px 0 10px 0;
+}
 #inlineFormInputGroupUsername2 {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-#choose-card{
-    background-color: #205375;
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(360deg, #C8DEFD 0%, #205375 95%);
+} 
+.special-card{
+    border: none;
+    border-radius: 2rem;  
 }
+/*.special-card::before{
+    content: url("../img/blue.jpg");
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}*/
 @media (min-width: 320px) and (max-width: 767px) {
     .leading-par{
         width: 100%;
+    }
+    .about-us-btn{
+        width: 100%;
+        background-color: #205375;
     }
     
   }
@@ -108,3 +126,4 @@ z-index: 0;
     }
     
   }
+  
